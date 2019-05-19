@@ -1,0 +1,16 @@
+Line no.	Address	ObjectC	Label		Mnemonic	Operands
+1		0		prog     	start   		0
+2		0	03000d	         	lda     		=c'abc'
+3		3	03100010	         	+lda    		=x'abcdef'
+4		7	030013	         	lda     		=x'123456'
+5		a	030016	         	lda     		=W'-1234'
+6		d		         	end     		                  
+Symbol Table:
+Label 	 Address
+prog     	0
+Literal Address			Literal Hex Value
+d						616263
+10						abcdef
+13						123456
+16						fffb2e
+

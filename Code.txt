@@ -1,0 +1,6 @@
+prog     start   0
+         lda     =c'abc'
+         +lda    =x'abcdef'
+         lda     =x'123456'
+         lda     =W'-1234'
+         end
